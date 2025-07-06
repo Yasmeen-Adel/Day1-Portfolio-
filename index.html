@@ -23,7 +23,7 @@
     <hr>
     <hr>
     <hr>
-   <h2>My Skills</h1>
+   <h2> My Skills</h1>
    
   <ul>
     <li>Communication</li>
@@ -61,14 +61,26 @@
     <p>A simple page where I wrote book reviews and added links to buy the books online.</p>
 <img src="book review.jpg" alt="" width="200"height="200">
 <hr>
-<h2>Contact Me</h2>
-<form action="">
-    Name: <br>
-    <input type="text"> <br>
-    Email: <br>
-    <input type="email"> <br> 
-    Message: <br>
-    <textarea name="" id="" cols="30" rows="5"></textarea>
-</form>
+<h2> <mark> Contact Me</mark></h2>
+
+
+<form action="/action_page.php" method="post" autocomplete="on">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" value="" placeholder="Enter your name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" value="" placeholder="Enter your email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea name="message" id="message" cols="30" rows="5" placeholder="Write your message here..." required></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form> 
+
+<!-- 
+-button
+-placeholder
+-mark
+-->
 </body>
 </html>
